@@ -1,5 +1,3 @@
-def current_age_for_birth_year(year_age)
-  current_year = 2003
-  age = current_year - #{year_age}
-  return age
+def current_age_for_birth_year(birth_year)
+  2003 - birth_year
 end
